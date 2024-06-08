@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    position: relative;
+}
+.logo-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.logo-container img {
+    width: 50px;
+    height: 50px;
+}
+.menu-container {
+    text-align: center;
+    background: #d3d3d3; /* Gris claro */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumentar sombras */
+    padding: 60px; /* Agrandado */
+    width: 400px; /* Agrandado */
+}
+h1 {
+    margin-bottom: 40px;
+    color: #3b3a30; /* Verde olivo oscuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del texto */
+}
+.menu-button {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #556b2f; /* Verde olivo más oscuro */
+    color: #fff;
+    font-size: 18px; /* Agrandado */
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras en los botones */
+}
+.menu-button:hover {
+    background-color: #4a5b27; /* Verde olivo aún más oscuro */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumentar sombras al hacer hover */
+}
+
